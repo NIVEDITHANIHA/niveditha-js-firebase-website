@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -33,7 +34,7 @@ a {
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: "2rem";
-  width: calc(100% - 2rem);
+  width: calc(100% -2 rem);
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -119,7 +120,7 @@ a {
   }
   .nav_list {
     display: flex;
-    padding-top: 0;
+    padding-top: 0px;
   }
   .nav_item {
     margin-left: 3rem;
@@ -148,7 +149,7 @@ a {
   grid-template-columns: auto;
   grid-template-rows: auto;
   gap: 1rem;
-  background-image: url("background.jpeg");
+  background-image: url("photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -161,13 +162,13 @@ a {
   width: 70%;
   margin-top: 10em;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .text {
   position: relative;
   z-index: 10;
-  color: white;
+  color: rgba(231, 106, 68, 0.9);
 }
 .text h2 {
   font-size: 2rem;
@@ -177,7 +178,7 @@ a {
 }
 .text p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   margin: 20px 0;
   letter-spacing: 2px;
   max-width: 700px;
@@ -203,15 +204,13 @@ a {
 }
 @media (max-width: 768px) {
   .main,
-  .main .section {
-    padding: 10px;
-    background-size: 100vh;
+  .main  .section {
     background-size: cover;
-    height: 50%;
+    height: 10%;
   }
 
   .text h2 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -338,7 +337,7 @@ article {
   }
 }
 /* contact section*/
-.contact {
+.contacts {
   display: flex;
   align-items: center;
   justify-content: center;

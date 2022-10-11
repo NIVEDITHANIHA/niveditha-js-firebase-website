@@ -45,8 +45,8 @@ var firebaseConfig = {
   projectId: "contact-database-8e6a6",
   storageBucket: "contact-database-8e6a6.appspot.com",
   messagingSenderId: "555326772055",
-  appId: "1:555326772055:web:aa014174ddc18340012412",
-};
+  appId: "1:555326772055:web:aa014174ddc18340012412"
+ };
 
 firebase.initializeApp(firebaseConfig);
 
